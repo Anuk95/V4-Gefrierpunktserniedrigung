@@ -156,7 +156,7 @@ p_{ges} = p_{01} \cdot (1-x_2^l)
 
 Außderdem wird davon ausgegangen, dass sich beim Lösen des Stoffes keine Unregelmäßigkeiten wie z.B. Kristalle bilden, die den Idealitätscharakter der Lösung beeinflussen würden.\\
 
-Dampf-, Schmelz-, und Sublimationsdruck der Lösung hängen somit nicht von der Art des gelösten Stoffes, sondern nur von der Temperatur ab. So ergibt sich folgende Isochore (Abbildung 1):\\
+Dampf-, Schmelz-, und Sublimationsdruck der Lösung hängen somit nicht von der Art des gelösten Stoffes, sondern nur von der Temperatur und dem Lösungsmittel ab. So ergibt sich folgende Isochore (Abbildung 1):\\
 
 \newpage
 
@@ -168,14 +168,16 @@ Dampf-, Schmelz-, und Sublimationsdruck der Lösung hängen somit nicht von der 
 \footnotetext{Skriptum für das Praktikum zur Einführung in die Physikalische Chemie, Institut für physikalische Chemie, Uni Göttingen, 2015, Seite 24}
 
 Die rote Linie zeichnet die Übergänge der Aggregatzustände des reinen Lösungsmittels. Nahe der Abszisse (dh. bei geringer Temperatur) ist der feste Bereich und nahe der Ordinate (bei geringem Druck) der gasförmige.
-Somit bildet die Strecke $\overline{AB}$\,mit dem Übergang zwischen gasförmigen und flüssigem Zustand den Dampfdruck; $\overline{BC}$\,den Schmelzdruck. $\overline{FB}$\,beschreibt den Sublimationsdruck und $C$\, den Gefrierpunkt (bei\,$p= 1\mathrm{atm}$.\\
-Die schwarze Kurve zeigt die Phasenübergänge der Lösung, die Bezeichnungen für die jeweiligen Streckenabschnitte gelten hier analog.\\
+Somit bildet die Strecke $\overline{AB}$\,mit dem Übergang zwischen gasförmigen und flüssigem Zustand den Dampfdruck; $\overline{BC}$\,den Schmelzdruck. $\overline{FB}$\,beschreibt den Sublimationsdruck und $C$\, den Gefrierpunkt (bei\,$p= 1\,\mathrm{atm}$).\\
+Die schwarze Kurve zeigt die Phasenübergänge der Lösung; die Bezeichnungen für die jeweiligen Streckenabschnitte gelten hier analog.\\
 Auffällig ist die Verschiebung des Tripelpunktes, die nah mit der Differenz der Gefrierpunkte, dh. der Gefrierpunktserniedrigung\,$\Delta T_g = T_C - T_G$ zusammenhängt. \\
 Der fast senkrechte Anstieg der Gefrierpunktserniedrigung\,$T_g$ entspricht somit näherungsweise der Verschiebung des Tripelpunktes und es ergibt sich:  \\
 
 \begin{equation}
 T_G \approx T_B - T_F
 \end{equation}
+
+\newpage
 
 Diese kann mithilfe der Steigung der Dampfdruck- und Sublimationsdruckkurven errechnet werden. Das Raoultsche Gesetz besagt:\\
 
@@ -197,13 +199,70 @@ Einsetzen der Druckdifferenz $p_B - p_E$ aus dem Raoultschen Gesetz ergibt nach 
 \end{equation}
 \\
 
-Der Stoffmengenanteil $x_2^l$ ist proportional zur Molalität $\check c$ . Der Rest der Gleichung ist stoffabhängig und kann mit der stoffspezifischen kryoskopischen Konstante $\Theta_g$ zusammengefasst werden, welche die Schmelz- bzw. Gefierpunktsänderung darstellt:
+Der Stoffmengenanteil\,$x_2^l$ ist proportional zur Molalität\,$\check c$ . Der Rest der Gleichung ist stoffabhängig und kann mit der stoffspezifischen kryoskopischen Konstante\,$\Theta_g$ zusammengefasst werden, welche die Schmelz- bzw. Gefierpunktsänderung darstellt:
 
 \begin{equation}
-\Delta T_g = \Theta_g \cdot \check c
+\Delta T_g = \Theta_\mathrm{g} \cdot \check c = \Theta_\mathrm{g} \cdot \frac{m_\mathrm{2}}{M_\mathrm{2} \cdot m_\mathrm{1}}
 \end{equation}
 
-\newpage
+Somit ist die Erniedrigung bzw. Erhöhung des Gefrierpunktes eine kolligative Eigenschaft; die Veränderung ist nur von der Menge des gelösten Mittels, nicht aber ihrer Konsistenz abhängig. Die Gleichung trifft nur zu, solange keine Mischkristalle ausfallen.\\
+
+%Analog für die Siedepunktserhöhung ergibt sich die ebullioskopische Konstante\,$\Theta_S$:\\
+
+%\begin{equation}
+%\Delta T_\mathrm{S} = \Theta_\mathrm{S} \cdot \check c = \Theta_\mathrm{S} \cdot \frac{m_\mathrm{2}}{M_\mathrm{2} \cdot m_\mathrm{1}}
+%\end{equation}
+
+Die hier angegebene Molmasse ist nicht komplett äquvalent zu der tatsächlichen Molmasse der gelösten Substanz, da sie nicht komplett dissoziiert. Somit ergibt sich unter Anbetracht des Dissoziationsgrades $\alpha$ für die tatsächliche Molmasse: \\
+
+\begin{equation}
+M_2 = \frac{M_\mathrm{02}}{1+(z-1) \cdot \alpha}
+\end{equation}
+
+\section{Experimentelles}
+\subsection{Prinzip des Experiments}
+
+Ziel des Versuches ist es, die Molare Masse einer Substanz mithilfe ihrer Gefrierpunktserniedrigung im Bezug auf ein Lösungsmittel aus letzterer Gleichung zu bestimmen. Als Lösungsmittel sind Cyclohexan und Wasser gegeben, jedem Lösungsmittel zugehörig eine unbekannte Substanz.\\
+Es können sich folgende Abkühlungskurven bilden, anhand derer der Gefrierpunkt extraboliert werden soll (gestrichelte Linie): 
+
+\begin{figure} [h!]
+\begin{center}
+\includegraphics[scale=0.8]{Abkuhlungskurven.png} \end{center}
+\caption {Abkühlungskurven. \protect\footnotemark}
+\end{figure}
+\footnotetext{Skriptum für das Praktikum zur Einführung in die Physikalische Chemie, Institut für physikalische Chemie, Uni Göttingen, 2015, Seite 28}
+
+Der vorübergehende schnelle Abfall ist darauf zurückzuführen, dass bei Gefrieren der Lösung vorerst ein inhomogenes System aus einem homogenen System entsteht und die Aktivierungsenergie für die Keimbildung somit erst überwunden werden muss.
+
+
+\subsection{Versuchsaufbau}
+
+
+
+\begin{figure} [h!]
+\begin{center}
+\includegraphics[scale=0.8]{Versuchsaufbau2.png} \end{center}
+\caption{Versuchsaufbau.}
+\end{figure}
+
+\subsection{Durchführung}
+
+Der Versuch wird in zwei Gruppen aufgeteilt ausgeführt, wobei eine Gruppe die Gefrierpunktserniedrigung eines Lösungsmittels misst. \\
+Zuerst wird der Versuch wie auf der Skizze ersichtlich aufgebaut und das Beckmannthermometer auf einen Temperaturbereich geeicht.
+ Die Vergleichsstelle des Thermoelements wird in ein Wasser-Eisbad getunkt und das Element an elektronisches Speichermedium angeschlossen.\\
+ 
+ Zuerst wird der Aluminiumblock mit flüssigem Stickstoff auf ca. $-30 ^\circ\text{C}$ bei Wasser als Lösungsmittel und ca. $-15 ^\circ\text{C}$ bei Cyclohexan gekühlt. Anschließend werden 20 mL des Lösungsmittels in das innere Reagenzglas einpipettiert und dieses in den Aluminiumblock gestellt. Nun wird unter Rühren alle 10 Sekunden die Temperaturänderung erfasst, bis keine oder nur noch eine sehr schwache Temperaturänderung wahrnehmbar und die Lösun fest geworden ist. \\
+ Nach Auftauen des Lösungsmittels und erneutem Kühlen des Aluminiumblockes auf die entsprechende Temperatur werden 0,32\, g bei Wasser und 0,16\,g bei Cyclohexan der Substanz mit unbekannter Molmasse hinzugefügt und die Messung der Temperaturänderung wiederholt und in gleichen Intervallen notiert.\\
+Nach Wiederauftauen wird erneut die möglichst gleiche Menge Versuchssubstanz abgewogen und beigefügt. Der Vorgang wird wie oben beschrieben wiederholt und die Ergebnisse notiert.\\ 
+ 
+Als Messergebnisse ergeben sich drei Gefrierpunktskurven, aus denen der Gefrierpunkt grafisch extraboliert werden kann.
+
+
+
+
+
+
+
 \section{Auswertung}
 
 \subsection{Messergebnisse für Cyclohexan}
@@ -285,7 +344,7 @@ Hierbei wird $\mathrm{mit {~}1000}$ multipliziert, sodass überall mit der Einhe
 Somit ergeben sich für die Fehler der Molmasse der Substanz in Cyclohexan:\\
 
 \begin{align}
-\Delta M_A = \sqrt{ \left( \frac {20,2 {~}\mathrm{kg {~} K {~} mol^{-1}}}{ 1,6 {~} \mathrm{K} \cdot 16 {~}\mathrm{g}} \cdot 0,001 {~}\mathrm{g} \right)^2 + \left( \frac { 20,2 {~}\mathrm{kg{~}K {~} mol^{-1}} \cdot 0,1613{~}\mathrm{g} }{ 1,6 {~}\text{K}\cdot (16 {~}\mathrm{g} )^2 } \cdot 1 {~} \mathrm{g} \right)^2}  
+\Delta M_\mathrm{A} = \sqrt{ \left( \frac {20,2 {~}\mathrm{kg {~} K {~} mol^{-1}}}{ 1,6 {~} \mathrm{K} \cdot 16 {~}\mathrm{g}} \cdot 0,001 {~}\mathrm{g} \right)^2 + \left( \frac { 20,2 {~}\mathrm{kg{~}K {~} mol^{-1}} \cdot 0,1613{~}\mathrm{g} }{ 1,6 {~}\text{K}\cdot (16 {~}\mathrm{g} )^2 } \cdot 1 {~} \mathrm{g} \right)^2}  
 \end{align}
 
 \begin{align}
@@ -293,11 +352,11 @@ Somit ergeben sich für die Fehler der Molmasse der Substanz in Cyclohexan:\\
 \end{align}
 
 $ = 4 \cdot 10{~}\mathrm{g{~}mol^{-1}} $\\
-$\Delta M_B = 2 \cdot 10 {~}\mathrm{g{~}mol^{-1}}$\\\\
+$\Delta M_\mathrm{B} = 2 \cdot 10 {~}\mathrm{g{~}mol^{-1}}$\\\\
 
 Weiterhin ergibt sich für die Fehler in den Molmassen der Substanz im Wasser:\\
-$\Delta M_A = 1 \cdot 10 {~}\mathrm{g{~}mol^{-1}} $\\
-$\Delta M_B = 8 {~}\mathrm{g{~}mol^{-1}}$\\
+$\Delta M_\mathrm{A} = 1 \cdot 10 {~}\mathrm{g{~}mol^{-1}} $\\
+$\Delta M_\mathrm{B} = 8 {~}\mathrm{g{~}mol^{-1}}$\\
 
 \subsection{Diskussion Systematischer Fehler}
 Zu den abgeschätzten Gerätefehlern kommen noch weitere systematische Fehler, welche das Ergebnis beeinflussen. Zunächst gibt es einige Ungenauigkeiten im Messen der Temperatur der Lösung. Die nach Augenmaß abgelesenen Werte sind sehr ungenau, es ist schwierig, exakt alle zehn Sekunden richtig abzulesen. Hierbei kommt es vor allem zu Verspätungen aufgrund der menschlichen Reaktionszeit.\\\\ Daher ist die elektronische Messung zu bevorzugen, welche jedoch auch Fehler enthalten kann. Etwa ist die Eichflüssigkeit, Eiswasser, mit der Zeit immer wärmer geworden, ebenfalls ist das Thermoelement leicht zu beeinflussen, beispielsweise durch den versehentlichen Kontakt zum Rührstab. Letztere Beeinflussung lässt sich meist gut graphisch ausgleichen. Das Erwärmen des Eiswassers könnte jedoch zur Folge haben, dass die Temperaturen der Lösungen immer zu hoch oder zu niedrig gemessen werden. So könnte sich bei einer sich daraus ergebenden beispielsweise zu kleinen Temperaturdifferenz, eine zu große Molmasse ergeben.\\\\
@@ -344,7 +403,12 @@ So wird durch weiteres Einsetzen die Molalität der gelösten Substanz $c_2^l$ m
 
 
 
+\subsection{Literaturverzeichnis}
+1\quad Götz, Eckhold: \emph{Sriptum zur Einführung in die physikalische Chemie}, Institut für physikalische Chemie, Uni Göttingen, \textbf{2015}.
 
+\vspace{0,5 cm}
+
+2 \quad \emph{Skriptum für das Praktikum zur Einführung in die Physikalische Chemie}, Institut für physikalische Chemie, Uni Göttingen, \textbf{2015}.\\
 
 
 
