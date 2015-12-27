@@ -89,6 +89,7 @@
 %\begin{document}
  % \SI{1.55}{\micro\metre}
 \sisetup{math-micro=\text{µ},text-micro=µ}
+\usepackage{amsmath}
 \begin{document}
 
 \begin{titlepage}
@@ -278,7 +279,7 @@ Volumen des Lösungsmittels: $V_{\mathrm{Cyclohexan}} = 0,02 {~} \mathrm{L}{~}\w
 Masse des Lösungsmittels:  $m_{\mathrm{Cyclohexan}} = {~} \rho \cdot V = 0,78{~} \mathrm{g {~}cm^{-3}} \cdot 20{~} \mathrm{cm^{3}} = 16{~}\mathrm{g}$\\
 Masse der Einwaage A: $m_A = 0,1613{~} \mathrm{g}$\\ 
 Masse der Einwaage B: $m_B = 0,1655{~} \mathrm{g}$\\
-$\Theta _g = 20,2 {~} \mathrm{kg{~}K {~} mol^{-1}}$\\\\
+$\mathit{\Theta }_\mathrm{g} = 20,2 {~} \mathrm{kg{~}K {~} mol^{-1}}$\\\\
 Gefrierpunkt des reinen Lösungsmittel: $ T_g = 6,4 {~}^{\circ}\text{C}$\\
 Gefrierpunkt der Lösung A: $ T_{gA} = 4,8 {~}^{\circ}\text{C}$\\
 Gefrierpunkt der Lösung B: $ T_{gB} = 2,9 {~}^{\circ}\text{C}$\\
@@ -286,11 +287,11 @@ $ \Delta T _{gA} = T_g - T _{gA} = 6,4 {~}^{\circ}\text{C} - 4,8 {~}^{\circ}\tex
 $ \Delta T _{gB} = 6,4 {~}^{\circ}\text{C} - 2,9 {~}^{\circ}\text{C} = 3,5 {~}^{\circ}\text{C} = 3,5 {~} \mathrm{K} $
 \subsection{Messergebnisse für Wasser}
 
-Volumen des Lösungsmittels: $V_{\mathrm{Cyclohexan}} = 0,02 {~} \mathrm{L}{~}\widehat{=}{~}20 {~}\mathrm{cm^3}$ \\
-Masse des Lösungsmittels:  $m_{\mathrm{Cyclohexan}} = {~} \rho \cdot V = 1,00{~} \mathrm{g {~}cm^{-3}} \cdot 20{~} \mathrm{cm^{3}} = 20{~}\mathrm{g}$\\
+Volumen des Lösungsmittels: $V_{\mathrm{Wasser}} = 0,02 {~} \mathrm{L}{~}\widehat{=}{~}20 {~}\mathrm{cm^3}$ \\
+Masse des Lösungsmittels:  $m_{\mathrm{Wasser}} = {~} \rho \cdot V = 1,00{~} \mathrm{g {~}cm^{-3}} \cdot 20{~} \mathrm{cm^{3}} = 20{~}\mathrm{g}$\\
 Masse der Einwaage A: $m_A = 0,316{~} \mathrm{g}$\\ 
 Masse der Einwaage B: $m_B = 0,316{~} \mathrm{g}$\\
-$\Theta _g = 1,86 {~}\mathrm{kg{~}K {~} mol^{-1}}$\\\\
+$\mathit{\Theta} _g = 1,86 {~}\mathrm{kg{~}K {~} mol^{-1}}$\\\\
 Gefrierpunkt des reinen Lösungsmittel: $ T_g = -1,4 {~}^{\circ}\text{C}$\\
 Gefrierpunkt der Lösung A: $ T_{gA} = -2,5 {~}^{\circ}\text{C}$\\
 Gefrierpunkt der Lösung B: $ T_{gB} = -3,5 {~}^{\circ}\text{C}$\\
@@ -301,73 +302,72 @@ $ \Delta T _{gB} = 2,1 {~}^{\circ}\text{C} = 2,1{~} \mathrm{K} $
 
 Es gilt folgender Zusammenhang:
 \begin{equation}
-\Delta T_g = \Theta _g \cdot \frac{m_2}{M_2 \cdot m_1}
+\Delta T_\mathrm{g} = \mathit{\Theta} _\mathrm{g} \cdot \frac{m_2}{M_2 \cdot m_1}
 \end{equation}
 
 Daraus lässt sich folgende Formel zum Ermitteln der Molmasse aufstellen:
 \begin{equation}
- M = \frac{\Theta _g \cdot m_2 }{ \Delta T_g\cdot m_1}
+ M = \frac{\mathit{\Theta} _\mathrm{g} \cdot m_2 }{ \Delta T_\mathrm{g}\cdot m_1}
 \end{equation}
 
 \subsection{ Bestimmung der Molmasse der Substanz in Cyclohexan}
 
 Durch Einsetzen der Messergebnisse in die obige Gleichung ergibt sich für Lösung A:\\
 
-$M_A = \frac {\Theta _g \cdot m_2 }{ \Delta T_g\cdot m_1} 
+$M_\mathrm{A} = \frac { \Theta_g \cdot m_2 }{ \Delta T_g\cdot m_1} 
  = \frac {20,2{~} \mathrm{kg{~}K {~} mol^{-1}} \cdot 0,1613 {~}\text{g}} { 1,6 {~} \mathrm{K} \cdot 15,6{~} \mathrm{g}} \approx 0,13{~} \mathrm{kg {~} mol^{-1}} {~}\widehat{=}{~} 13 \cdot 10{~} \mathrm{g{~}mol^{-1}} $\\
 
 Und für Lösung B:\\
 
-$M_B \approx 12 \cdot 10{~} \mathrm{g{~}mol^{-1}}$
+$M_\mathrm{B} \approx 12 \cdot 10{~} \mathrm{g{~}mol^{-1}}$
 
 
 \subsection{Bestimmung der Molmasse der Substanz in Wasser}
 
 Die Molmasse berechnet sich analog zu der obigen Rechnung. Es ergibt sich für Lösung A:\\
-$M_A^{'} \approx 27{~} \mathrm{g{~}mol^{-1}}$\\\\
+$M_\mathrm{A}^{'} \approx 27{~} \mathrm{g{~}mol^{-1}}$\\\\
 Und für Lösung B:\\
-$M_B^{'} \approx 28{~} \mathrm{g{~}mol^{-1}}$\\\\
+$M_\mathrm{B}^{'} \approx 28{~} \mathrm{g{~}mol^{-1}}$\\\\
 
-Diese ist jedoch nur eine scheinbare Molmasse. Da die Substanz im Wasser in Ionen dissoziiert, in diesem Fall in eine Anion und ein Kation (es handelt sich um KCl) muss das Ergebnis noch mit dem Faktor zwei multipliziert werden. Somit ergibt sich:\\\\
-$M_A = M_A^{'} \cdot 2 \approx 56{~} \mathrm{g{~}mol^{-1}} $\\
-$M_B = M_B^{'} \cdot 2 \approx 53{~} \mathrm{g{~}mol^{-1}} $\\
+Diese ist jedoch nur eine scheinbare Molmasse. Da die Substanz im Wasser vollständig  in Ionen dissoziiert $\alpha = 1$, in diesem Fall in eine Anion und ein Kation (es handelt sich um KCl) muss das Ergebnis noch mit dem Faktor zwei multipliziert werden. Somit ergibt sich:\\\\
+$M_\mathrm{A} = M_\mathrm{A}^{'} \cdot 2 \approx 56{~} \mathrm{g{~}mol^{-1}} $\\
+$M_\mathrm{B} = M_\mathrm{B}^{'} \cdot 2 \approx 53{~} \mathrm{g{~}mol^{-1}} $\\
 
 \section{Fehlerrechnung}
 \subsection{Fehlerfortpflanzung}
 Folgende Gerätefehler werden abgeschätzt:\\
 
-$\Delta m_1 = 1{~}\mathrm{g}  $\\
+$\Delta V_1 = 0,03{~}\mathrm{ml}  $\\
 $\Delta m_2 = 0,001{~}\mathrm{g}  $\\
-$\Delta (\Delta T_g) = 0,5{~}\text{K}  $\\ Dies ist der abgeschätzte Fehler für das Beckmann Thermometer.\\\\
-Da jedoch mit den Messungen aus der Auftragung gerechnet wird muss der Fehler für die elektronische Messung graphisch aus der Auftragung bestimmt werden. Dabei werden aus den Schwankungen der Graphen maximale und minimale Gefrierpunkte ermittelt, wodurch sich ebenfalls maximale und minimale Gefrierpunktdifferenzen bestimmen lassen. Nun lässt sich der absolute Fehler für $\Delta (\Delta T_g)$ mithilfe folgender Formel bestimmen:
+$\Delta (\Delta T_\mathrm{g}) = 0,5{~}\text{K}  $\\ Dies ist der abgeschätzte Fehler für das Beckmann Thermometer.\\\\
+Da jedoch mit den Messungen aus der Auftragung gerechnet wird muss der Fehler für die elektronische Messung graphisch aus der Auftragung bestimmt werden. Dabei werden aus den Schwankungen der Graphen maximale und minimale Gefrierpunkte ermittelt, wodurch sich ebenfalls maximale und minimale Gefrierpunktdifferenzen bestimmen lassen. Nun lässt sich der absolute Fehler für $\Delta (\Delta T_\mathrm{g})$ mithilfe folgender Formel bestimmen:
 \begin{align}
-\Delta (\Delta T_g) = \dfrac{ \Delta T_{g\mathrm{~}{max}}-\Delta T_{g\mathrm{~}{min}}}{2}
+\Delta (\Delta T_\mathrm{g}) = \dfrac{ \Delta T_{\mathrm{g {~}max}} -\Delta T_{\mathrm{g{~}{min}}}}{2}
 \end{align}
 
-Somit ergibt sich für die Messung mit Wasser als größter möglicher Fehler $\Delta (\Delta T_g) = 0,2{~\mathrm{K}}$  und für Cyclohexan $\Delta (\Delta T_g) = 0,3{~\mathrm{K}}$
+Somit ergibt sich für die Messung mit Wasser als größter möglicher Fehler $\Delta (\Delta T_\mathrm{g}) = 0,2{~\mathrm{K}}$  und für Cyclohexan $\Delta (\Delta T_\mathrm{g}) = 0,3{~\mathrm{K}}$
 
 Der Fehler $\Delta M$ lässt sich durch die Gaußsche Fehlerfortpflanzung berechnen, dadurch erhält man folgende Formel:
 
 \begin{align}
-\Delta M = \sqrt{ \left( \frac {\Theta _g}{ \Delta T_g\cdot m_1} \cdot \Delta m_2 \right)^2 + \left( \frac {\Theta _g \cdot m_2 }{ \Delta T_g\cdot m_1^2 } \cdot \Delta m_1 \right)^2 + \left( \frac {\Theta _g \cdot m_2 }{ \Delta T_g^2 \cdot m_1} \cdot \Delta (\Delta T_g) \right)^2 } \cdot 1000
+\Delta M = \frac{ \mathit{\Theta}_\mathrm{g} \cdot 1000}{\Delta T\mathrm{g} \cdot \rho \cdot V_1} \cdot  \sqrt{\left(\Delta m_2\right)^2 + \left( \frac{m_2 \cdot \Delta V_1}{V_1}\right)^2 + \left( \frac{ m_2 \cdot \Delta (\Delta T_{\mathrm{g}})}{\Delta T_{\mathrm{g}}} \right)^2 }
 \end{align}
 
-Hierbei wird $\mathrm{mit {~}1000}$ multipliziert, sodass überall mit der Einheit $\mathrm{g}$ gerechnet wird und der Fehler sich auf das Ergebnis $\mathrm{g{~} mol^{-1}}$ bezieht.
+Hierbei wird der Fehler $\mathrm{mit {~}1000}$ multipliziert, sodass überall mit der Einheit $\mathrm{g}$ gerechnet wird und der Fehler sich auf das Ergebnis $\mathrm{g{~} mol^{-1}}$ bezieht.
 
 Somit ergeben sich für die Fehler der Molmasse der Substanz in Cyclohexan:\\
-
-
-$\Delta M_\mathrm{A} = \sqrt{ \left( \frac {20,2 {~}\mathrm{kg {~} K {~} mol^{-1}}}{ 1,6 {~} \mathrm{K} \cdot 16 {~}\mathrm{g}} \cdot 0,001 \mathrm{g} \right)^2 + \left( \frac { 20,2 {~}\mathrm{kg{~}K {~} mol^{-1}} \cdot 0,1613{~}\mathrm{g} }{ 1,6 {~}\text{K}\cdot (16 {~}\mathrm{g} )^2 } \cdot 1 {~} \mathrm{g} \right)^2 +  \left( \frac {20,2 {~}\mathrm{kg{~}K {~} mol^{-1}} \cdot 0,1613 {~} \mathrm{g}} { 16 {~} \mathrm{g} \cdot (1,6 {~} \text{K})^2} \cdot 0,3{~} \text{K} \right)^2}  $
 \begin{align}
-\cdot 1000 = 3 \cdot 10{~}\mathrm{g{~}mol^{-1}}
+\Delta M = \frac{ 20,2 {~}\mathrm{kg {~} K {~} mol^{-1}} \cdot 1000}{1,6 {~} \mathrm{K} \cdot 0,78{~} \mathrm{g {~}cm^{-3}} \cdot 20{~} \mathrm{cm^{3}}} \cdot  \sqrt{\left(0,001 \mathrm{g}\right)^2 + \left( \frac{0,1613 {~} \mathrm{g} \cdot 0,03{~} \mathrm{cm^{3}}}{20{~} \mathrm{cm^{3}}}\right)^2 + \left( \frac{ 0,1613 {~} \mathrm{g} \cdot 0,3{~} \text{K}}{1,6 {~} \mathrm{K}} \right)^2 }
 \end{align}
+$= 24,5{~}\mathrm{g{~}mol^{-1}} \approx 3 \cdot 10{~}\mathrm{g{~}mol^{-1}} $
 
 
-$\Delta M_\mathrm{B} = 2 \cdot 10 {~}\mathrm{g{~}mol^{-1}}$\\\\
+
+$\Delta M_\mathrm{B} = 10,40{~}\mathrm{g{~}mol^{-1}} \approx 2 \cdot 10 {~}\mathrm{g{~}mol^{-1}}$\\\\
 
 Weiterhin ergibt sich für die Fehler in den Molmassen der Substanz im Wasser:\\
-$\Delta M_\mathrm{A} = 3 \cdot 10  {~}\mathrm{g{~}mol^{-1}} $\\
-$\Delta M_\mathrm{B} = 3 \cdot 10 {~}\mathrm{g{~}mol^{-1}}$\\
+$\Delta M_\mathrm{A} = 5  {~}\mathrm{g{~}mol^{-1}} $\\
+$\Delta M_\mathrm{B} = 3 {~}\mathrm{g{~}mol^{-1}}$\\
 
 \subsection{Diskussion Systematischer Fehler}
 Zu den abgeschätzten Gerätefehlern kommen noch weitere systematische Fehler, welche das Ergebnis beeinflussen. Zunächst wird mit einigen Näherungen gerechnet, welche zu Abweichungen im Ergebnis führen können.\\\\
