@@ -13,7 +13,7 @@
 \contentsline {subsection}{\numberline {3.5}Bestimmung der Molmasse der Substanz in Wasser}{9}{subsection.3.5}
 \contentsline {section}{\numberline {4}Fehlerrechnung}{9}{section.4}
 \contentsline {subsection}{\numberline {4.1}Fehlerfortpflanzung}{9}{subsection.4.1}
-\contentsline {subsection}{\numberline {4.2}Vergleich mit den Literaturwerten}{10}{subsection.4.2}
-\contentsline {subsection}{\numberline {4.3}Diskussion Systematischer Fehler}{11}{subsection.4.3}
+\contentsline {subsection}{\numberline {4.2}Diskussion Systematischer Fehler}{10}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Vergleich mit den Literaturwerten}{11}{subsection.4.3}
 \contentsline {section}{\numberline {5}Diskussion}{12}{section.5}
 \contentsline {subsection}{\numberline {5.1}Literaturverzeichnis}{14}{subsection.5.1}
