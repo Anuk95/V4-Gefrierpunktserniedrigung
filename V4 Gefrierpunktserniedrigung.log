@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.11.8)  18 JAN 2016 21:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.11.8)  24 JAN 2016 09:11
 entering extended mode
 **"V4 Gefrierpunktserniedrigung.tex"
 ("V4 Gefrierpunktserniedrigung.tex"
@@ -1270,9 +1270,7 @@ Package babel Info: Redefining ngerman shorthand "~
 
 
 {C:/Users/Alea/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-
-Package hyperref Warning: old toc file detected, not used; run LaTeX again.
-
+("V4 Gefrierpunktserniedrigung.toc")
 \tf@toc=\write5
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 149.
@@ -1282,7 +1280,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 149.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 149.
-[2]
+ [2]
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 151.
 Package babel Info: Redefining ngerman shorthand "~
@@ -1320,7 +1318,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 178.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 178.
-[3] <Phasendiagramm.png, id=97, 356.83313pt x 272.51813pt>
+[3] <Phasendiagramm.png, id=114, 356.83313pt x 272.51813pt>
 File: Phasendiagramm.png Graphic file (type png)
 
 <use Phasendiagramm.png>
@@ -1414,7 +1412,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 244.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 244.
-[5] <Abkuhlungskurven.png, id=122, 475.02469pt x 197.23688pt>
+[5] <Abkuhlungskurven.png, id=139, 475.02469pt x 197.23688pt>
 File: Abkuhlungskurven.png Graphic file (type png)
 
 <use Abkuhlungskurven.png>
@@ -1425,7 +1423,7 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 255.
 
-<Versuchsaufbau2neu.png, id=125, 458.46281pt x 432.11438pt>
+<Versuchsaufbau2neu.png, id=142, 458.46281pt x 432.11438pt>
 File: Versuchsaufbau2neu.png Graphic file (type png)
 
 <use Versuchsaufbau2neu.png>
@@ -1697,13 +1695,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 402--404
  []
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 404.
+(babel)             in language  on input line 406.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 404.
+(babel)             in language  on input line 406.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 404.
+(babel)             in language  on input line 406.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 404.
+(babel)             in language  on input line 406.
 [12]
 Underfull \hbox (badness 10000) in paragraph at lines 408--409
 
@@ -1752,9 +1750,9 @@ changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 456.
  ) 
 Here is how much of TeX's memory you used:
- 19908 strings out of 493673
- 367696 string characters out of 3141533
- 462949 words of memory out of 3000000
+ 19910 strings out of 493673
+ 367760 string characters out of 3141533
+ 463964 words of memory out of 3000000
  22950 multiletter control sequences out of 15000+200000
  25606 words of font info for 104 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
@@ -1779,9 +1777,9 @@ TeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files (x86)/MiKTeX
  2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.
 9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files (x86)/MiKTeX 2.9/
 fonts/type1/public/amsfonts/cm/cmti8.pfb>
-Output written on "V4 Gefrierpunktserniedrigung.pdf" (14 pages, 870056 bytes).
+Output written on "V4 Gefrierpunktserniedrigung.pdf" (14 pages, 874198 bytes).
 PDF statistics:
- 264 PDF objects out of 1000 (max. 8388607)
+ 281 PDF objects out of 1000 (max. 8388607)
  55 named destinations out of 1000 (max. 500000)
  152 words of extra memory for PDF output out of 10000 (max. 10000000)
 
