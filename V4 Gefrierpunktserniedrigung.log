@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.11.12)  24 JAN 2016 13:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.11.12)  24 JAN 2016 14:01
 entering extended mode
 **"V4 Gefrierpunktserniedrigung.tex"
 ("V4 Gefrierpunktserniedrigung.tex"
@@ -1691,132 +1691,105 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 399.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 399.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 399.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 399.
+ [12]
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 400.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 400.
 
-Underfull \hbox (badness 10000) in paragraph at lines 400--407
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 400--407
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 400--407
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 400--407
+Underfull \hbox (badness 10000) in paragraph at lines 404--406
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 400--407
+Underfull \hbox (badness 10000) in paragraph at lines 413--414
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 413--414
 
  []
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 407.
+(babel)             in language  on input line 414.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 407.
+(babel)             in language  on input line 414.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 407.
+(babel)             in language  on input line 414.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 407.
-[12]
+(babel)             in language  on input line 414.
+[13]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 409.
+(babel)             in language  on input line 416.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 409.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 409.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 409.
- [13]
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 410.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 410.
+(babel)             in language  on input line 416.
 
-Underfull \hbox (badness 10000) in paragraph at lines 414--416
+Underfull \hbox (badness 10000) in paragraph at lines 429--430
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 423--424
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 423--424
-
- []
-
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 440.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 424.
+(babel)             in language  on input line 440.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 424.
+(babel)             in language  on input line 440.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 424.
+(babel)             in language  on input line 440.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 424.
+(babel)             in language  on input line 440.
 [14]
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 426.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 426.
-
-Underfull \hbox (badness 10000) in paragraph at lines 439--440
-
- []
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 450.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 450.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 450.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 450.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 450.
-[15]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 450.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 440.
  ("V4 Gefrierpunktserniedrigung.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 450.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 450.
-Package rerunfilecheck Info: File `"V4 Gefrierpunktserniedrigung".out' has not 
-changed.
-(rerunfilecheck)             Checksum: 551623C5104DBE546FDF26CD1EC1BA96;1279.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 450.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 440.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 440.
+
+
+Package rerunfilecheck Warning: File `"V4 Gefrierpunktserniedrigung".out' has c
+hanged.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `"V4 Gefrierpunktserniedrigung".out'
+:
+(rerunfilecheck)             Before: 551623C5104DBE546FDF26CD1EC1BA96;1279
+(rerunfilecheck)             After:  C353C22C46C77577A17AEF2D9F4AB48F;1196.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 440.
  ) 
 Here is how much of TeX's memory you used:
- 19913 strings out of 493673
- 364251 string characters out of 3148822
+ 19912 strings out of 493673
+ 364244 string characters out of 3148822
  463964 words of memory out of 3000000
  22951 multiletter control sequences out of 15000+200000
  25606 words of font info for 104 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
  44i,13n,56p,10381b,766s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\Jule\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\t
-crm1200.pk><D:/Neuer Ordner/fonts/type1/public/amsfonts/cm/cmbx10.pfb><D:/Neuer
- Ordner/fonts/type1/public/amsfonts/cm/cmbx12.pfb><D:/Neuer Ordner/fonts/type1/
-public/amsfonts/cm/cmcsc10.pfb><D:/Neuer Ordner/fonts/type1/public/amsfonts/cm/
-cmex10.pfb><D:/Neuer Ordner/fonts/type1/public/amsfonts/cm/cmmi12.pfb><D:/Neuer
- Ordner/fonts/type1/public/amsfonts/cm/cmmi6.pfb><D:/Neuer Ordner/fonts/type1/p
-ublic/amsfonts/cm/cmmi8.pfb><D:/Neuer Ordner/fonts/type1/public/amsfonts/cm/cmr
-10.pfb><D:/Neuer Ordner/fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/Neuer Ordn
-er/fonts/type1/public/amsfonts/cm/cmr17.pfb><D:/Neuer Ordner/fonts/type1/public
-/amsfonts/cm/cmr6.pfb><D:/Neuer Ordner/fonts/type1/public/amsfonts/cm/cmr7.pfb>
-<D:/Neuer Ordner/fonts/type1/public/amsfonts/cm/cmr8.pfb><D:/Neuer Ordner/fonts
-/type1/public/amsfonts/cm/cmssbx10.pfb><D:/Neuer Ordner/fonts/type1/public/amsf
-onts/cm/cmsy10.pfb><D:/Neuer Ordner/fonts/type1/public/amsfonts/cm/cmsy6.pfb><D
-:/Neuer Ordner/fonts/type1/public/amsfonts/cm/cmsy8.pfb><D:/Neuer Ordner/fonts/
-type1/public/amsfonts/cm/cmti12.pfb><D:/Neuer Ordner/fonts/type1/public/amsfont
-s/cm/cmti8.pfb>
-Output written on "V4 Gefrierpunktserniedrigung.pdf" (15 pages, 878304 bytes).
+pdfTeX warning (dest): name{subsection.4.4} has been referenced but does not 
+exist, replaced by a fixed one
+
+ <C:\Users\Jule\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\tcr
+m1200.pk><D:/Neuer Ordner/fonts/type1/public/amsfonts/cm/cmbx10.pfb><D:/Neuer O
+rdner/fonts/type1/public/amsfonts/cm/cmbx12.pfb><D:/Neuer Ordner/fonts/type1/pu
+blic/amsfonts/cm/cmcsc10.pfb><D:/Neuer Ordner/fonts/type1/public/amsfonts/cm/cm
+ex10.pfb><D:/Neuer Ordner/fonts/type1/public/amsfonts/cm/cmmi12.pfb><D:/Neuer O
+rdner/fonts/type1/public/amsfonts/cm/cmmi6.pfb><D:/Neuer Ordner/fonts/type1/pub
+lic/amsfonts/cm/cmmi8.pfb><D:/Neuer Ordner/fonts/type1/public/amsfonts/cm/cmr10
+.pfb><D:/Neuer Ordner/fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/Neuer Ordner
+/fonts/type1/public/amsfonts/cm/cmr17.pfb><D:/Neuer Ordner/fonts/type1/public/a
+msfonts/cm/cmr6.pfb><D:/Neuer Ordner/fonts/type1/public/amsfonts/cm/cmr7.pfb><D
+:/Neuer Ordner/fonts/type1/public/amsfonts/cm/cmr8.pfb><D:/Neuer Ordner/fonts/t
+ype1/public/amsfonts/cm/cmssbx10.pfb><D:/Neuer Ordner/fonts/type1/public/amsfon
+ts/cm/cmsy10.pfb><D:/Neuer Ordner/fonts/type1/public/amsfonts/cm/cmsy6.pfb><D:/
+Neuer Ordner/fonts/type1/public/amsfonts/cm/cmsy8.pfb><D:/Neuer Ordner/fonts/ty
+pe1/public/amsfonts/cm/cmti12.pfb><D:/Neuer Ordner/fonts/type1/public/amsfonts/
+cm/cmti8.pfb>
+Output written on "V4 Gefrierpunktserniedrigung.pdf" (14 pages, 874818 bytes).
 PDF statistics:
- 290 PDF objects out of 1000 (max. 8388607)
- 57 named destinations out of 1000 (max. 500000)
+ 286 PDF objects out of 1000 (max. 8388607)
+ 56 named destinations out of 1000 (max. 500000)
  160 words of extra memory for PDF output out of 10000 (max. 10000000)
 
