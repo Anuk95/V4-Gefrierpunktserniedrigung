@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.11.8)  24 JAN 2016 09:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.11.8)  24 JAN 2016 09:13
 entering extended mode
 **"V4 Gefrierpunktserniedrigung.tex"
 ("V4 Gefrierpunktserniedrigung.tex"
@@ -1752,7 +1752,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 456.
 Here is how much of TeX's memory you used:
  19910 strings out of 493673
  367760 string characters out of 3141533
- 463964 words of memory out of 3000000
+ 462964 words of memory out of 3000000
  22950 multiletter control sequences out of 15000+200000
  25606 words of font info for 104 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
@@ -1777,7 +1777,7 @@ TeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files (x86)/MiKTeX
  2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.
 9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files (x86)/MiKTeX 2.9/
 fonts/type1/public/amsfonts/cm/cmti8.pfb>
-Output written on "V4 Gefrierpunktserniedrigung.pdf" (14 pages, 874198 bytes).
+Output written on "V4 Gefrierpunktserniedrigung.pdf" (14 pages, 874208 bytes).
 PDF statistics:
  281 PDF objects out of 1000 (max. 8388607)
  55 named destinations out of 1000 (max. 500000)
